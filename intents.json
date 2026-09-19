@@ -1,0 +1,179 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "hola",
+        "buenas",
+        "buen dia",
+        "buenas tardes",
+        "buenas noches",
+        "que tal",
+        "hola como estas",
+        "hey",
+        "holii",
+        "buenos dias"
+      ],
+      "responses": [
+        "Hola! Soy el asistente virtual de la escuela. Te puedo ayudar con tramites academicos y administrativos: practicas profesionalizantes, seguridad en talleres, mesas de examen y documentacion.",
+        "Buenas! Consultame sobre practicas profesionalizantes, mesas de examen, emision de documentacion o normas de seguridad en talleres."
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "gracias",
+        "muchas gracias",
+        "te agradezco",
+        "genial gracias",
+        "perfecto gracias",
+        "graciaz",
+        "graciass"
+      ],
+      "responses": [
+        "De nada! Cualquier otra duda, aqui estoy.",
+        "No hay de que. Si te queda alguna pregunta, volve a escribirme."
+      ]
+    },
+    {
+      "tag": "contacto",
+      "patterns": [
+        "como contacto a la escuela",
+        "numero de telefono de la escuela",
+        "donde queda la preceptoria",
+        "horarios de atencion de secretaria",
+        "correo de la escuela",
+        "mail institucional",
+        "a que correo escribo",
+        "donde encuentro a los preceptores",
+        "atencion al publico",
+        "en que horario atienden"
+      ],
+      "responses": [
+        "La secretaria y preceptoria atienden de lunes a viernes de 8 a 12 y de 13:30 a 17:30. Podes escribir al correo institucional escuelatecnica@campus.edu.ar o acercarte en ese horario.",
+        "Para consultas administrativas escribi al correo escuelatecnica@campus.edu.ar o contacta a preceptoria presencialmente en el turno de manana o tarde."
+      ]
+    },
+    {
+      "tag": "practicas_profesionalizantes",
+      "patterns": [
+        "como hago para hacer las practicas profesionalizantes",
+        "requisitos para las pasantias",
+        "cuando son las practicas profesionalizantes",
+        "fechas de practicas profesionalizantes",
+        "como consigo una pasantia",
+        "que necesito para la practica profesionalizante",
+        "cuando arrancan las pasantias",
+        "requisitos practicas profesionalizantes",
+        "practica profesionalisante",
+        "pasantillas"
+      ,
+        "papeles para la pasantia",
+        "donde me anoto para las pasantias",
+        "que es una pasantia",
+        "como me inscribo en las practicas",
+        "cuando son las practicas del ultimo año",
+        "horarios de las pasantias",
+        "las pasantias son obligatorias",
+        "requisitos prcticas",
+        "para que año son las pasantias",
+        "cuantas horas de practica tengo que hacer",
+        "necesito seguro para la pasantia",
+        "pasantias a que empresas puedo ir",
+        "se paga la practica",
+        "como me asignan la empresa de pasantia"
+      ],
+      "responses": [
+        "Las practicas profesionalizantes se realizan en 6to y 7mo año. Los requisitos son: haber aprobado todas las materias previas al ciclo, completar la ficha de inscripcion en preceptoria y presentar certificado de buena salud. Las inscripciones se abren en marzo y las practicas se desarrollan en el segundo cuatrimestre. Mas info con el coordinador de practicas.",
+        "Para las pasantias necesitas: 1) ser alumno de 6to o 7mo, 2) ficha de inscripcion firmada por tus tutores, 3) apto fisico actualizado y 4) certificado de alumno regular. La asignacion de empresa la hace el equipo de coordinacion; las fechas de inicio se publican en la cartelera y en la pagina de la escuela."
+      ]
+    },
+    {
+      "tag": "seguridad_talleres",
+      "patterns": [
+        "cuales son las normas de seguridad en el taller",
+        "puedo entrar al laboratorio sin guardapolvo",
+        "como uso la soldadora",
+        "protocolo de seguridad en talleres",
+        "reglas del laboratorio de electronica",
+        "que pasa si rompo una herramienta",
+        "hay que usar antiparras en el taller",
+        "normas de seguridad en el lab",
+        "es obligatorio el guardapolvo",
+        "guarda polvo obligatorio",
+        "normas de seguridad e higiene",
+        "puedo usar el celular en el laboratorio",
+        "necesito zapatos de seguridad",
+        "reglas de seguridad en el taller",
+        "uso del elemento de proteccion personal",
+        "epp taller",
+        "usar anteojos en el taller",
+        "como me protejo en el laboratorio",
+        "que pasa si no uso los elementos de seguridad",
+        "soldar sin guantes se puede"
+      ],
+      "responses": [
+        "En talleres y laboratorios es obligatorio: guardapolvo abotonado, antiparras y calzado cerrado. No se permite comer, correr ni usar el celular. Si rompes una herramienta avisa al docente: no pagas el costo si el desperfecto fue durante una actividad supervisada. Antes de usar maquinas electricas o de soldadura debe estar presente el profesor.",
+        "Protocolo de seguridad: entrada con guardapolvo y EPP completo (antiparras, guantes para soldadura, calzado de seguridad). Prohibido manipular maquinas sin autorizacion del docente. Cortes de corriente obligatorios al terminar. Ante un accidente, avisar de inmediato al profesor y luego a la preceptoria para labrar un parte."
+      ]
+    },
+    {
+      "tag": "mesas_examen",
+      "patterns": [
+        "cuando son las mesas de previas",
+        "mesa de examen de matematica",
+        "como me inscribo a una mesa de previa",
+        "fechas de mesas de examen",
+        "equivalencias de materias",
+        "como pido una equivalencia",
+        "cuando hay examen previo de ingles",
+        "que materias tengo que rendir en febrero",
+        "inscripcion mesa de examen",
+        "mesas de examen noviembre",
+        "que pasa si no voy a la mesa",
+        "cuantas veces puedo rendir",
+        "examenes previos fechas",
+        "equivalencia de materias aprobadas",
+        "como me anoto para rendir",
+        "soy libre y quiero rendir",
+        "mesa de diciembre",
+        "cuando son los examenes de previa",
+        "como rindo una materia previa",
+        "mesas de examen marzo"
+      ],
+      "responses": [
+        "Las mesas de examenes previos se realizan de octubre a noviembre y en febrero. Para rendir tenes que inscribirte en la pagina de la escuela con tu DNI y CUIL con hasta 7 dias de anticipacion. Las equivalencias se tramitan en secretaria presentando el analitico o certificado de la materia aprobada en otra institucion, y hay una instancia de evaluacion segun el programa vigente.",
+        "Mesas de previas: calendario en la cartelera y en la web. La inscripcion es online y gratuita. Si faltas a la mesa perdes el turno, pero podes volver a inscribirte en la proxima. Para equivalencias presenta en secretaria la documentacion de la materia aprobada y coordina fecha de evaluacion con el jefe de departamento."
+      ]
+    },
+    {
+      "tag": "documentacion",
+      "patterns": [
+        "necesito un certificado de alumno regular",
+        "como saco la constancia de alumno",
+        "constancia de alumno regular",
+        "podes darme el analitico",
+        "analitico parcial",
+        "certificado de alumno regular",
+        "papel para la obra social",
+        "constancia de estudios",
+        "como pido el analitico",
+        "quiero el analitico",
+        "constancia de cuarto año",
+        "donde tramito la constancia",
+        "analitico completo",
+        "historia academica",
+        "certificado de estudios",
+        "papel de alumno regular",
+        "constancia de inscripcion",
+        "certificado para el trabajo",
+        "necesito el certificado para la obra social",
+        "constancia de alumno para comer"
+      ],
+      "responses": [
+        "La constancia de alumno regular se emite de forma gratuita en el kiosco de tramites de la pagina web institucional (acceso con usuario y contrasena de alumno). Es valida por 30 dias. El analitico parcial o completo se solicita en secretaria con DNI; tarda aproximadamente 10 dias habiles.",
+        "Para la constancia: ingresa al portal de alumnos, selecciona 'Emitir constancia de alumno regular' y se descarga en PDF al instante. Si necesitas el papel para obra social o beneficio, imprimila y llevala a secretaria a sellar. El analitico y la historia academica se tramitan en secretaria presentando DNI."
+      ]
+    }
+  ]
+}
