@@ -130,15 +130,6 @@ Parámetros ajustables en `app.py`:
 
 El puerto de escucha por defecto es `5000` (`app.py:131`).
 
-## Deploy en Render
-
-El proyecto incluye `render.yaml` (blueprint):
-
-- Conectá el repositorio de GitHub a Render y creá el *Blueprint*, o
-- Creá un *Web Service* con: `python` runtime, `pip install -r requirements.txt` como build command y `gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 300` como start command.
-
-El healthcheck usa `GET /health`.
-
 ## Agregar nuevas respuestas
 
 1. Editá `intents.json`: agregá patrones a intentos existentes o creá un nuevo `tag` con `patterns` y `responses`.
