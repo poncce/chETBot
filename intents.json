@@ -171,8 +171,8 @@
         "constancia de alumno para comer"
       ],
       "responses": [
-        "La constancia de alumno regular se emite de forma gratuita en el kiosco de tramites de la pagina web institucional (acceso con usuario y contrasena de alumno). Es valida por 30 dias. El analitico parcial o completo se solicita en secretaria con DNI; tarda aproximadamente 10 dias habiles.",
-        "Para la constancia: ingresa al portal de alumnos, selecciona 'Emitir constancia de alumno regular' y se descarga en PDF al instante. Si necesitas el papel para obra social o beneficio, imprimila y llevala a secretaria a sellar. El analitico y la historia academica se tramitan en secretaria presentando DNI."
+        "La constancia de alumno regular se solicita desde la app AprendeBA, la aplicacion del Gobierno de la Ciudad de Buenos Aires. Ingresa con el usuario y contrasena del alumno, selecciona la opcion 'Constancias' y la de alumno regular se descarga en PDF. Es valida por 30 dias. El analitico parcial o completo se solicita en secretaria con DNI; tarda aproximadamente 10 dias habiles.",
+        "Para la constancia: entra a AprendeBA (app o web de la Ciudad), iniciá sesion, anda a la seccion de constancias y descarga la de 'alumno regular' en PDF. Si necesitas el papel para obra social o beneficio, imprimila y llevala a secretaria a sellar. El analitico y la historia academica se tramitan en secretaria presentando DNI."
       ]
     }
   ]
