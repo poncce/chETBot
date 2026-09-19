@@ -110,3 +110,31 @@ Endpoints:
 El backend (`app.py`) expone la API de forma independiente. El frontend
 (`index.html`) consume `POST /chat` mediante `fetch` y funciona tanto servido
 desde Flask (`/`) como abierto como archivo local.
+
+## Deployment en Render
+
+Este repo está preparado para deployar gratis en [Render](https://render.com)
+(archivo `render.yaml` + `runtime.txt`). El modelo ya viene entrenado y
+versionado, por lo que **no se entrena en el servidor**: solo se instalan
+dependencias (`tensorflow-cpu` para un build liviano) y se levanta con
+Gunicorn.
+
+Pasos:
+
+1. Subí el proyecto a un repo en GitHub:
+   ```bash
+   git remote add origin https://github.com/TU_USUARIO/chatbot-escolar.git
+   git push -u origin main
+   ```
+2. En [dashboard.render.com](https://dashboard.render.com) → **New → Blueprint**,
+   conectá el repo. Render lee `render.yaml` y crea el web service automáticamente.
+   (Alternativa manual: **New → Web Service**, conectá el repo y usá los comandos
+   de `render.yaml` como Build/Start.)
+3. Al terminar el build, te da una URL tipo `https://chatbot-escolar.onrender.com`.
+   El frontend queda en la raíz (`/`) y la API en `POST /chat`.
+
+Notas:
+- Se usa un único worker porque el modelo se carga en memoria al arrancar
+  (instancia free con 512 MB de RAM).
+- El primer deploy tarda unos minutos (descarga de TensorFlow). El artefacto
+  `.h5` ya está en el repo, así que no hay etapa de entrenamiento.

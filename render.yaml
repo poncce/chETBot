@@ -1,0 +1,16 @@
+# render.yaml — blueprint para deployar en Render (https://render.com)
+# Uso: conecta tu repo de GitHub y Render creara el web service con estos
+# valores. Tambien podes levantar el servicio manualmente desde el dashboard
+# con los mismos comandos.
+
+services:
+  - type: web
+    name: chatbot-escolar
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 300
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "true"
