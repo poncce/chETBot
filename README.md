@@ -4,6 +4,8 @@ Asistente virtual para trámites académicos y administrativos de una escuela t�
 
 Está compuesto por una red neuronal (MLP) que clasifica la intención de cada pregunta y un frontend de chat que consume la API.
 
+**Realizado por los estudiantes de 6-3 Máximo Casanovas e Ignacio Ponce**
+
 ## Stack
 
 | Componente | Tecnología |
