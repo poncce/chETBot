@@ -12,5 +12,5 @@ services:
     startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 300
     healthCheckPath: /health
     envVars:
-      - key: PYTHONUNBUFFERED
-        value: "true"
+      - key: PYTHON_VERSION
+        value: 3.12.10
